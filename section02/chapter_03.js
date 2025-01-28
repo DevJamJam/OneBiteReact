@@ -34,7 +34,7 @@ console.log(myName, myJob, hobby, extra); // 율 Developer Animation Watching
 
 // 3. 객체 구조 분해 할당을 이용하여 함수의 매개변수를 받는 방법
 const func = ({ name, job, hobby, extra }) => {
-  console.log(myName, myJob, hobby, extra); // 율 Developer Animation Watching undefined
+  console.log(name, job, hobby, extra); // 율 Developer Animation Watching undefined
 };
 func(person);
 // 객체를 넘겼을때만 사용 가능
