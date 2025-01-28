@@ -6,7 +6,8 @@
 
 let num = 100;
 
-for (let idx = 0; idx < num; idx++) {
+for (let idx = 1; idx <= num; idx++) {
+  // 코드오류 발견 수정
   if (num % idx === 0) {
     console.log(idx);
   }
